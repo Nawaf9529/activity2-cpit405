@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cpit405-activity1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Premier League Standings</h1>
+    
+    <input type="checkbox" name="top-teams" id="top-teams-check" onclick="checkEvent()">
+    <label for="top-teams-check">teams qualify for the European Championship</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>GP</th>
+          <th>W</th>
+          <th>L</th>
+          <th>D</th>
+          <th>GF</th>
+          <th>GA</th>
+          <th>Pts 
+            <span onclick="arrowUp()">⬆️</span>
+            <span onclick="arrowDown()">⬇️</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Liverpol</td>
+          <td>39</td>
+          <td>26</td>
+          <td>5</td>
+          <td>6</td>
+          <td>87</td>
+          <td>32</td>
+          <td>87</td>
+        </tr>
+        <tr>
+          <td>Manchester City</td>
+          <td>38</td>
+          <td>27</td>
+          <td>5</td>
+          <td>6</td>
+          <td>83</td>
+          <td>32</td>
+          <td>87</td>
+        </tr>
+        <tr>
+          <td>Arsenal</td>
+          <td>38</td>
+          <td>27</td>
+          <td>5</td>
+          <td>6</td>
+          <td>83</td>
+          <td>32</td>
+          <td>87</td>
+        </tr>
+        <tr>
+          <td>Aston Villa</td>
+          <td>38</td>
+          <td>27</td>
+          <td>5</td>
+          <td>6</td>
+          <td>83</td>
+          <td>32</td>
+          <td>87</td>
+        </tr>
+        <tr>
+            <td>Tottenham Hotspur</td>
+            <td>26</td>
+            <td>15</td>
+            <td>5</td>
+            <td>6</td>
+            <td>55</td>
+            <td>39</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Manchester United</td>
+            <td>27</td>
+            <td>17</td>
+            <td>2</td>
+            <td>11</td>
+            <td>37</td>
+            <td>39</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>West Ham United</td>
+            <td>27</td>
+            <td>12</td>
+            <td>6</td>
+            <td>9</td>
+            <td>43</td>
+            <td>47</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>Newcastle United</td>
+            <td>27</td>
+            <td>12</td>
+            <td>4</td>
+            <td>11</td>
+            <td>57</td>
+            <td>45</td>
+            <td>40</td>
+        </tr>
+        <!-- Add more rows -->
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
